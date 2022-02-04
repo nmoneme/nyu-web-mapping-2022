@@ -1,0 +1,103 @@
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    color: #380038
+}
+
+.term-container {
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px 1px #E52B50;
+  padding: 5px 9px;
+  background: #FFCCF6;
+  color: #380038;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.term-container:hover {
+  background: #C49DBD
+}
+
+.term-name {
+  font-size: 10px;
+  color: #380038;
+}
+
+.half-width {
+  width: 49%;
+  display: inline-block;
+  color: #380038;
+}
+
+.right-half text {
+  width: 100%;
+  color: #380038;
+}
+
+body {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: #F5F5F5;
+  background-image: url("https://img.freepik.com/free-vector/spring-flower-frame-background-with-watercolor_65186-2528.jpg?size=626&ext=jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 0px 0px;
+}
+
+.button-68 {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #27ae60;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+  float: right;
+}
+
+.button-68:hover {
+  background-color: #1e8449;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.button-68:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.button-68:hover {
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+
+.centered-text {
+  text-align: center;
+ }
