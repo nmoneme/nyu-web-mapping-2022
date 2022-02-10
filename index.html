@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>A Basic HTML5 Template</title>
+  <title>Health Care Flashcards</title>
   <meta name="description" content="A simple HTML5 Template for new projects.">
   <meta name="author" content="SitePoint">
 
@@ -23,44 +23,45 @@
 
 <body>
   <!-- your content here... -->
-  <h1>Health Care Flashcards</h1>
+<h1>Health Care Flashcards</h1>
 <div class='half-width'>
-  <div id='term-1' class='term-container'>
-    <div class='term-name'>
-      Term 1
+    <div id='term-1' class='term-container'>
+      <div class='term-name'>
+        Term 1
+      </div>
+      <div class='term-title'>
+        Claims
+      </div>
     </div>
-    <div class='term-title'>
-      Claims
+    <div id='term-2' class='term-container'>
+      <div class='term-name'>
+        Term 2
+      </div>
+      <div class='term-title'>
+        Insurance
+      </div>
+    </div>
+    <div id='term-3' class='term-container'>
+      <div class='term-name'>
+        Term 3
+      </div>
+      <div class='term-title'>
+        Out-of-Pocket Costs
+      </div>
     </div>
   </div>
-  <div id='term-2' class='term-container'>
-    <div class='term-name'>
-      Term 2
-    </div>
-    <div class='term-title'>
-      Insurance
-    </div>
+  <!-- ^^ closes .half-width -->
+  <div class='half-width right-half'>
+    Click a term to see the definition!
   </div>
-  <div id='term-3' class='term-container'>
-    <div class='term-name'>
-      Term 3
-    </div>
-    <div class='term-title'>
-      Out-of-Pocket Costs
-    </div>
-  </div>
-</div>
-<div class='half-width right-half'>
-  Click a term to see the definition!
-</div>
-<!-- load the jQuery library from CDN -->
-
 <div>
   <a href="https://studenthealth.oregonstate.edu/students/common-healthcare-terms#A" target="_blank">
     <p><button class="button-68">Click here for more!</button></p>
   </a>
+  </div>
+  <!-- load the jQuery library from CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <!-- load my local javascript file -->
-</div>
   <script src="js/scripts.js"></script>
 </body>
 </html>
