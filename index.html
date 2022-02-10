@@ -4,64 +4,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Health Care Flashcards</title>
-  <meta name="description" content="A simple HTML5 Template for new projects.">
-  <meta name="author" content="SitePoint">
-
-  <meta property="og:title" content="A Basic HTML5 Template">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
-  <meta property="og:description" content="A simple HTML5 Template for new projects.">
-  <meta property="og:image" content="image.png">
 
   <link rel="icon" href="/favicon.ico">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <link rel="stylesheet" href="css/styles.css">
-
 </head>
 
 <body>
-  <!-- your content here... -->
 <h1>Health Care Flashcards</h1>
-<div class='half-width'>
-    <div id='term-1' class='term-container'>
-      <div class='term-name'>
-        Term 1
+  <div>
+    <h3> Health Care Terms</h3>
+    <p> Here are some health care terms you should know. Click to see the definition of each word!</p>
+  </div>
+  <div class='half-width'>
+      <div id='term-1' class='term-container' data-term-definition='A request by you for payment by the insurance company of medical expenses that are covered under the insurance policy. The provider of a medical service will usually file a claim for you.'>
+        <div class='term-name'>
+          Term 1
+        </div>
+        <div class='term-title'>
+          Claims
+        </div>
       </div>
-      <div class='term-title'>
-        Claims
+      <div id='term-2' class='term-container' data-term-definition='A system under which individuals, businesses and other organizations, in exchange for a premium, are promised payment for losses resulting from certain dangers as specified in a contract.'>
+        <div class='term-name'>
+          Term 2
+        </div>
+        <div class='term-title'>
+          Insurance
+        </div>
+      </div>
+      <div id='term-3' class='term-container' data-term-definition='The total you pay out of your pocket for a policy year. These costs include the deductible, co-insurance and amounts considered by the insurance company to be above the Usual and Customary charges.'>
+        <div class='term-name'>
+          Term 3
+        </div>
+        <div class='term-title'>
+          Out-of-Pocket Costs
+        </div>
       </div>
     </div>
-    <div id='term-2' class='term-container'>
-      <div class='term-name'>
-        Term 2
-      </div>
-      <div class='term-title'>
-        Insurance
-      </div>
+    <!-- ^^ closes .half-width -->
+    <div class='half-width right-half'>
     </div>
-    <div id='term-3' class='term-container'>
-      <div class='term-name'>
-        Term 3
-      </div>
-      <div class='term-title'>
-        Out-of-Pocket Costs
-      </div>
+    <div class="hero">
     </div>
-  </div>
-  <!-- ^^ closes .half-width -->
-  <div class='half-width right-half'>
-    Click a term to see the definition!
-  </div>
-<div>
-  <a href="https://studenthealth.oregonstate.edu/students/common-healthcare-terms#A" target="_blank">
-    <p><button class="button-68">Click here for more!</button></p>
-  </a>
-  </div>
-  <!-- load the jQuery library from CDN -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <!-- load my local javascript file -->
-  <script src="js/scripts.js"></script>
+  <div>
+    <a href="https://studenthealth.oregonstate.edu/students/common-healthcare-terms#A" target="_blank">
+      <p><button class="button-68">Click here for more!</button></p>
+    </a>
+    </div>
+    <!-- load the jQuery library from CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- load my local javascript file -->
+    <script src="js/scripts.js"></script>
 </body>
 </html>

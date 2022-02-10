@@ -1,11 +1,10 @@
-$('#term-1').on('click', function() {
-	$(".right-half").text("A request by you for payment by the insurance company of medical expenses that are covered under the insurance policy. The provider of a medical service will usually file a claim for you.");
-})
 
-$('#term-2').on('click', function() {
-	$(".right-half").text("A system under which individuals, businesses and other organizations, in exchange for a premium, are promised payment for losses resulting from certain dangers as specified in a contract.");
-})
+// consolodate the above terms into one terms
+$('.term-container').on('click', function() {
+	// pull out the data/term/defintion atribute from clicked term
+	var termDefinition = $(this).data('term-definition')
+	// overwrite the html in the right-half div with a definition of the term
+	console.log(termDefinition)
+	$(".right-half").text(`${termDefinition}`);
 
-$('#term-3').on('click', function() {
-	$(".right-half").text("The total you pay out of your pocket for a policy year. These costs include the deductible, co-insurance and amounts considered by the insurance company to be above the Usual and Customary charges.");
 })

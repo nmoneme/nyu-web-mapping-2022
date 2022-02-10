@@ -1,10 +1,23 @@
 h1 {
     font-size: 2rem;
     text-align: center;
-    font-family: "Courier New", Courier, monospace;
+    color: #380038
+}
+h3 {
+    font-size: 1rem;
+    text-align: center;
+    color: #380038
+}
+p {
+    font-size: 1rem;
     color: #380038
 }
 
+html {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* term container button */
 .term-container {
   border: 1px solid;
   border-radius: 5px;
@@ -12,7 +25,6 @@ h1 {
   padding: 5px 9px;
   background: #FFCCF6;
   color: #380038;
-  font-family: "Courier New", Courier, monospace;
   margin-bottom: 8px;
   cursor: pointer;
 }
@@ -37,6 +49,11 @@ h1 {
   color: #380038;
 }
 
+.right-half {
+  text-align: center;
+}
+
+/* background image */
 body {
   position: absolute;
   top: 0px;
@@ -44,12 +61,16 @@ body {
   bottom: 0px;
   left: 0px;
   background-color: #F5F5F5;
-  background-image: url("https://img.freepik.com/free-vector/spring-flower-frame-background-with-watercolor_65186-2528.jpg?size=626&ext=jpg");
+  background-image: url("https://wallpaperaccess.com/full/1221351.jpg");
+  overflow: hidden;
+  background-size: cover;
+  width: 100%;
+  length: 100%;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: 0px 0px;
 }
 
+/* button to link to site for more definitions */
 .button-68 {
   appearance: none;
   backface-visibility: hidden;
@@ -61,7 +82,6 @@ body {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "Courier New", Courier, monospace;
   font-size: 8px;
   font-weight: 900;
   letter-spacing: normal;
